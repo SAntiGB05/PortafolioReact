@@ -1,8 +1,9 @@
 import React from 'react'
+import './container.css'
 
 export const Container = ({ children }) => {
   return (
-    <div>
+    <div className="main-content">
       {
         children
       }
