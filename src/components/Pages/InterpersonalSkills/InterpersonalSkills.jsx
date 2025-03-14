@@ -3,7 +3,8 @@
 export const InterpersonalSkills = () => {
     return (
         <>
-        <h1>hola soy InterpersonalSkills</h1>
+        <h2>hola soy InterpersonalSkills</h2>
+        
         </>
     )
 }

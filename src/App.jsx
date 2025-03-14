@@ -7,6 +7,7 @@ import { TechnicalSkills } from "./components/Pages/TechnicalSkills/TechnicalSki
 import { InterpersonalSkills } from "./components/Pages/InterpersonalSkills/InterpersonalSkills.jsx";
 import { Experience } from "./components/Pages/Experience/Experience.jsx";
 import { Footer } from "./components/Layouts/footer/Footer.jsx";
+import 'boxicons'
 
 export const App = () => {
   return (

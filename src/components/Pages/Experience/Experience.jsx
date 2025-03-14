@@ -3,7 +3,7 @@
 export const Experience = () => {
     return (
         <>
-        <h1>hola soy Experience</h1>
+        <h2>hola soy Experience</h2>
         </>
     )
 }
