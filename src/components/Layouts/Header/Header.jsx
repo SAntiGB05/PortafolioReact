@@ -14,7 +14,7 @@ export const Header = () => {
             <nav>
                 <ul>
                     <li><NavLink to="/">Inicio</NavLink></li>
-                    <li><NavLink to="/InterpersonalSkills">Habilidades personales</NavLink></li>
+                    <li><NavLink to="/InterpersonalSkills">Sobre Me</NavLink></li>
                     <li><NavLink to="/TechnicalSkills">Habilidades Técnicas</NavLink></li>
                     <li><NavLink to="/Experience">Experiencia</NavLink></li>
                 </ul>

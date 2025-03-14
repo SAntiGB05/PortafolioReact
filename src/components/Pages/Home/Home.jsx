@@ -1,35 +1,28 @@
+import Img from '../../../img/yotas2.webp'
 import './Home.css'
-import Im from '../../../img/yotas.jpg'
 
 
 export const Home = () => {
     return (
         <div className='Home'>
-            <div className="title">
-            <box-icon name='chevron-left' color='#f2e9dd' size="80px"></box-icon>
-            <h2>Santiago Gonzalez</h2> 
-            <box-icon name='chevron-right' color='#f2e9dd' size="80px"></box-icon>
+            <img src={Img} alt="" className='Img'/>
+        <div className="title">
+            <box-icon name='chevron-left' color='#f2e9dd' size="60px"></box-icon>
+            <h2>Santiago Gonzalez  /</h2> 
+            <box-icon name='chevron-right' color='#f2e9dd' size="60px"></box-icon>
         </div>
         <div className='view'>
-            <img src={Im} alt="" className='Im'/>
-            <div className='texto'>
+            
+            <div className='text-2'>
                 <h3>
-                Soy una persona dedicada y apasionada por el desarrollo de software, siempre en busca de 
-                oportunidades para crecer y mejorar mis habilidades. Mi compromiso con la mejora continua 
-                y mi entusiasmo por el mundo de la tecnología me impulsan a estar al tanto de las últimas 
-                tendencias y prácticas en el campo del desarrollo web y de software.
+                Desarrollador FullStack & UI/UX Designer
                 </h3>
+                <div className='Buttons'>
+                    <button className='btt-2'>Proyectos</button>
+                    <button className='btt-1'>Sobre Mi</button>
+                </div>
             </div>
         </div>
-
-        <div className='final'> 
-            <box-icon name='chevron-left' color='#f2e9dd' size="80px"></box-icon>
-            <h2>/</h2>
-            <box-icon name='chevron-right' color='#f2e9dd' size="80px"></box-icon>
         </div>
-           
-        </div>
-        
-        
     )
 }
