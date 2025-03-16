@@ -12,10 +12,6 @@
     background-color: rgba(168, 165, 162, 0.979);
     color: black;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; 
     height: 70px; 
   }
   

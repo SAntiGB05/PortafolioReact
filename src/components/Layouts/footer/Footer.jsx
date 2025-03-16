@@ -9,13 +9,13 @@ export const Footer = () => {
         <>
             <footer className="footer">
                 <div className="social-links">
-                    <a href="https://www.linkedin.com/in/tu-usuario-linkedin" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/santi-gb-80514629a/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="LinkedIn" className="social-icon" />
                     </a>
-                    <a href="https://github.com/tu-usuario-github" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/SAntiGB05" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="GitHub" className="social-icon" />
                     </a>
-                    <a href="https://wa.me/tu-numero-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/3174186529" target="_blank" rel="noopener noreferrer">
                     <img src={whatsapp} alt="WhatsApp" className="social-icon" />
                     </a>
                 </div>

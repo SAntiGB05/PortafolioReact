@@ -1,20 +1,36 @@
-#root {
-  
-  background-image: url('./img/fondo.jpeg');
-  background-attachment: fixed; /* Fija la imagen de fondo */
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100%;
+* {
+  box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+  padding: 0;
 }
 
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: center;
   background-color: rgb(6, 2, 11);
+
+  background-image: url('./img/fondo.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; /* Cubre el contenedor sin distorsionar la imagen */
+  width: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
 }
 
+#root {
+  width: 100%;
+  height: 100%;
+}
 
+.main-content {
+  padding-top: 0px;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

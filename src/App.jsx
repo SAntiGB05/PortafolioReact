@@ -16,7 +16,6 @@ export const App = () => {
       <Container>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/InterpersonalSkills" element={<InterpersonalSkills />} />
           <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
           <Route path="/Experience" element={<Experience />} />
         </Routes>

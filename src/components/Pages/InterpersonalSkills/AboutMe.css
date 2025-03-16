@@ -22,9 +22,9 @@
     margin: 0; /* Elimina el margen predeterminado de los títulos */
   }
   
-  h3 {
-    margin-top: 10px;
-    max-width: 1200px; /* Limita el ancho del texto */
+  p {
+    margin: 30px;
+    max-width: 1000px; /* Limita el ancho del texto */
   }
 
   .Im {
@@ -34,7 +34,7 @@
     border: 1px solid antiquewhite;
     float: right; /* Permite que el texto fluya alrededor */
     shape-outside: circle(); /* Define la forma circular para el texto */
-    margin-left: 10px; /* Espacio entre la imagen y el texto */
+    margin-left: 40px; /* Espacio entre la imagen y el texto */
   }
 
   .view {
