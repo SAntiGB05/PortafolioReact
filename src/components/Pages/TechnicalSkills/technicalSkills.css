@@ -1,0 +1,94 @@
+.Technical{
+    margin-bottom: 50px;
+}
+
+.technical-skills {
+    background-color: rgb(133, 132, 131); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: start;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 15px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.technical-skills h2 {
+    font-size: 28px;
+    color: #242323;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.skills-description {
+    font-size: 16px;
+    color: rgb(216, 215, 214);
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-list li {
+    font-size: 16px;
+    color: rgb(216, 215, 214);
+    margin-bottom: 10px;
+}
+
+.skills-list strong {
+    color: #242323;
+}
+
+.skills-focus {
+    font-size: 16px;
+    color: rgb(216, 215, 214);
+    text-align: start;
+    font-style: italic;
+}
+
+.title-Skills h3 {
+    font-size: 26px; 
+    color: #242323  ; 
+    margin-bottom: 20px; 
+}
+
+
+.conteiner-technical-skills {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 25px; 
+}
+
+.img-technical-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 215, 214); 
+    padding: 10px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 100px;
+}
+
+
+.img-technical-skills img {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%; 
+    height: 10px; 
+    border-radius: 5px;
+}
+
+.progress::-webkit-progress-value {
+    background-color: #4caf50; 
+}
