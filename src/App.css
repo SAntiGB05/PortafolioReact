@@ -15,4 +15,22 @@ p{
     color: rgba(168, 165, 162, 0.818);
 }
 
+/* Estilizar la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 6px; /* Ancho de la barra */
+}
 
+/* Color del fondo de la barra */
+::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+
+/* Color del "pulgar" que se mueve */
+::-webkit-scrollbar-thumb {
+  background: #4f4f4d;
+}
+
+/* Cambiar color al pasar el mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6a66;
+}

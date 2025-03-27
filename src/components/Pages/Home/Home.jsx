@@ -1,5 +1,6 @@
 import Img from '../../../img/yotas2.webp';
 import { InterpersonalSkills } from '../InterpersonalSkills/InterpersonalSkills';
+import { NavLink } from "react-router-dom";
 import './Home.css';
 
 export const Home = () => {
@@ -26,7 +27,7 @@ export const Home = () => {
               Desarrollador FullStack & UI/UX Designer
             </p>
             <div className='Buttons'>
-              <button className='btt-2'>Proyectos</button>
+              <button className='btt-2'> <NavLink to="/Experience">Proyectos</NavLink>  </button>
               {/* Botón "Sobre Mí" con scroll suave */}
               <button className='btt-1' onClick={scrollToInterpersonalSkills}>Sobre Mí</button>
             </div>

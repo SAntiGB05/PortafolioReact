@@ -1,94 +1,104 @@
-.Technical{
-    margin-bottom: 50px;
+/* Contenedor principal */
+.Technical {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #2b2b2b; /* Fondo oscuro para mayor contraste */
+    border-radius: 10px;
 }
 
+/* Sección de habilidades técnicas */
 .technical-skills {
-    background-color: rgb(133, 132, 131); 
-    padding: 20px; 
-    border-radius: 10px; 
+    background: #3b3b3b; /* Un tono más claro para separar visualmente */
+    padding: 2rem;
+    border-radius: 10px;
     text-align: start;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 15px;
-
+    margin: 1rem 2rem;
     font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.technical-skills h2 {
-    font-size: 28px;
-    color: #242323;
-    text-align: start;
-    margin-bottom: 15px;
+/* Títulos */
+.technical-skills h2, .title-Skills h3 {
+    font-size: 1.8rem;
+    color: #e7e0c6; /* Amarillo vibrante para destacar */
+    margin-bottom: 1rem;
 }
 
-.skills-description {
-    font-size: 16px;
-    color: rgb(216, 215, 214);
-    text-align: start;
-    margin-bottom: 20px;
+/* Descripción general */
+.skills-description,
+.skills-focus {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 1.5rem;
 }
 
+/* Lista de habilidades */
 .skills-list {
     list-style-type: none;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    padding-left: 1rem;
 }
 
 .skills-list li {
-    font-size: 16px;
-    color: rgb(216, 215, 214);
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: #ccc;
 }
 
 .skills-list strong {
-    color: #242323;
+    color: #e7e0c6; /* Amarillo para resaltar las tecnologías */
 }
 
-.skills-focus {
-    font-size: 16px;
-    color: rgb(216, 215, 214);
-    text-align: start;
-    font-style: italic;
-}
-
-.title-Skills h3 {
-    font-size: 26px; 
-    color: #242323  ; 
-    margin-bottom: 20px; 
-}
-
-
+/* Contenedor de habilidades técnicas */
 .conteiner-technical-skills {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 25px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
 }
 
+/* Tarjetas individuales */
 .img-technical-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(216, 215, 214); 
-    padding: 10px; 
+    background: #444; /* Un tono más oscuro */
+    padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    width: 100px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+/* Efecto hover */
+.img-technical-skills:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px #585750;
+}
 
+/* Imágenes de tecnologías */
 .img-technical-skills img {
-    width: 50px; 
-    height: 50px; 
-    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.8rem;
 }
 
+/* Barra de progreso */
 .progress {
-    width: 100%; 
-    height: 10px; 
+    width: 100%;
+    height: 8px;
     border-radius: 5px;
+    background: #666;
+    overflow: hidden;
 }
 
+/* Color de la barra de progreso en Chrome */
 .progress::-webkit-progress-value {
-    background-color: #4caf50; 
+    background: #e7e0c6;
+}
+
+/* Color de la barra de progreso en Firefox */
+.progress::-moz-progress-bar {
+    background: #e7e0c6;
 }
