@@ -8,7 +8,7 @@ import MySql from './../../../icon/mysql.png'
 import mongo from './../../../icon/mongo.png'
 import git from './../../../icon/git.png'
 
-import './TechnicalSkills.css'; // Asegúrate de que la ruta sea correcta
+import './technicalSkills.css'; // Asegúrate de que la ruta sea correcta
 
 
 export const TechnicalSkills = () => {
