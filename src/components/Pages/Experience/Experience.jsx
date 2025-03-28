@@ -1,24 +1,34 @@
 import './Experience.css';
+import atlas from '../../../img/atlas.png'
+import EdDravel from '../../../img/Ed-Dravel.png'
+import musicstore from '../../../img/music-store.png'
+import diccionariotraductor from '../../../img/diccionario-traductor.png'
 
 export const Experience = () => {
     const projects = [
         {
             id: 1,
-            name: "CRUD en C#",
-            image: "/images/crud-csharp.jpg",
-            link: "https://github.com/tuusuario/crud-csharp"
+            name: "Atlas",
+            image: [atlas],
+            link: "https://atlas-ten-beta.vercel.app/"
         },
         {
             id: 2,
-            name: "E-Commerce en React",
-            image: "/images/ecommerce-react.jpg",
-            link: "https://github.com/tuusuario/ecommerce-react"
+            name: "Ed-Dravel",
+            image: [EdDravel],
+            link: "https://taller-rozo.vercel.app/"
         },
         {
             id: 3,
-            name: "Sistema de Inventario",
-            image: "/images/inventario.jpg",
-            link: "https://github.com/tuusuario/sistema-inventario"
+            name: "music-store",
+            image: [musicstore],
+            link: "https://music-store-khaki.vercel.app/"
+        },
+        {
+            id: 4,
+            name: "diccionario-traductor",
+            image: [diccionariotraductor],
+            link: "https://diccionario-traductor.vercel.app/"
         }
     ];
 
